@@ -1,22 +1,23 @@
 CARS
 
-id - int
-marchio - VARCHAR(20)
-modello - VARCHAR(20)
-prezzo - decimal(7,2)
-cilindrata_cm3 - SMALLINT
-potenza_kw - SMALLINT
-alimentazione - VARCHAR(30)
-anno - YEAR
-km_percorsi - SMALLINT
-condizioni - VARCHAR(10)
-peso_kg - SMALLINT
-segmento - VARCHAR(15)
-porte - TINYINT
-posti - TINYINT
-trazione - VARCHAR(10)
-serbatoio_l - TINYINT
-bagagliaio_l - SMALLINT
-cambio - VARCHAR(10)
-velocita_massima - TINYINT
-consumo_100km - TINYINT
+id - int - Primary Key - NOTNULL
+marchio - VARCHAR(20) - NOTNULL
+modello - VARCHAR(20) - NOTNULL
+prezzo - decimal(7,2) - NULL
+descrizione - TEXT - NULL
+cilindrata_cm3 - SMALLINT - NOTNULL
+potenza_kw - SMALLINT - NOTNULL
+alimentazione - VARCHAR(30) - NOTNULL
+anno - YEAR - NOTNULL
+km_percorsi - SMALLINT - NOTNULL
+condizioni - VARCHAR(10) - NOTNULL
+peso_kg - SMALLINT - NOTNULL
+segmento - VARCHAR(15) - NOTNULL
+porte - TINYINT - NOTNULL
+posti - TINYINT - NOTNULL
+trazione - VARCHAR(10) - NOTNULL
+serbatoio_l - TINYINT - NOTNULL
+bagagliaio_l - SMALLINT - NOTNULL
+cambio - VARCHAR(10) - NOTNULL
+velocita_massima - TINYINT - NULL
+consumo_100km - TINYINT - NOTNULL
