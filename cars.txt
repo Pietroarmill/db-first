@@ -1,22 +1,22 @@
 CARS
 
 id - int
-marchio - string
-modello - string
-prezzo - decimal
-cilindrata - int
-potenza - int
-alimentazione - string
-anno - date
-km_percorsi - int
-condizioni - string
-peso - int
-segmento - string
-porte - int
-posti - int
-trazione - string
-serbatoio - int
-bagagliaio - int
-cambio - string
-velocita_massima - int
-consumo int 
+marchio - VARCHAR(20)
+modello - VARCHAR(20)
+prezzo - decimal(7,2)
+cilindrata_cm3 - SMALLINT
+potenza_kw - SMALLINT
+alimentazione - VARCHAR(30)
+anno - YEAR
+km_percorsi - SMALLINT
+condizioni - VARCHAR(10)
+peso_kg - SMALLINT
+segmento - VARCHAR(15)
+porte - TINYINT
+posti - TINYINT
+trazione - VARCHAR(10)
+serbatoio_l - TINYINT
+bagagliaio_l - SMALLINT
+cambio - VARCHAR(10)
+velocita_massima - TINYINT
+consumo_100km - TINYINT
