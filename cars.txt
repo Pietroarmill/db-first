@@ -1,0 +1,22 @@
+CARS
+
+id - int
+marchio - string
+modello - string
+prezzo - decimal
+cilindrata - int
+potenza - int
+alimentazione - string
+anno - date
+km_percorsi - int
+condizioni - string
+peso - int
+segmento - string
+porte - int
+posti - int
+trazione - string
+serbatoio - int
+bagagliaio - int
+cambio - string
+velocita_massima - int
+consumo int 
