@@ -11,12 +11,13 @@ alimentazione - VARCHAR(30) - NOTNULL
 anno - YEAR - NOTNULL
 km_percorsi - SMALLINT - NOTNULL
 condizioni - VARCHAR(10) - NOTNULL
+dimensioni VARCHAR(30) - NOTNULL
 peso_kg - SMALLINT - NOTNULL
 segmento - VARCHAR(15) - NOTNULL
 porte - TINYINT - NOTNULL
 posti - TINYINT - NOTNULL
 trazione - VARCHAR(10) - NOTNULL
-serbatoio_l - TINYINT - NOTNULL
+serbatoio_l - TINYINT - NULL
 bagagliaio_l - SMALLINT - NOTNULL
 cambio - VARCHAR(10) - NOTNULL
 velocita_massima - TINYINT - NULL
